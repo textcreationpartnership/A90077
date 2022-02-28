@@ -1,0 +1,627 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Newes from Guild-Hall. Or, A premonition to the citizens of London.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1650</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 43 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A90077</idno>
+            <idno type="STC">Wing N961</idno>
+            <idno type="STC">Thomason E620_5</idno>
+            <idno type="STC">ESTC R203056</idno>
+            <idno type="EEBO-CITATION">99863145</idno>
+            <idno type="PROQUEST">99863145</idno>
+            <idno type="VID">115329</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A90077)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 115329)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 95:E620[5])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Newes from Guild-Hall. Or, A premonition to the citizens of London.</title>
+               </titleStmt>
+               <extent>8, [4] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1650]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Dated at end: 17. December, 1650.</note>
+                  <note>Place of publication from Wing.</note>
+                  <note>Annotation on Thomason copy: "Dec: 18 1650".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Corporation of London --  Accounting --  Early works to 1800.</term>
+               <term>Municipal revenue --  England --  London --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:115329:1" rendition="simple:additions"/>
+            <head>NEWES FROM GUILD-HALL. OR, A Premonition to the Citizens of <hi>LONDON.</hi>
+            </head>
+            <opener>
+               <salute>Worthy Citizens,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>Here has ariſen of late in Common-Councell, a Queſtion of very great concernment to your Liberties, about the election of the chief Officers of your City of <hi>London;</hi> It is very requiſite that all and every one of you, ſhould take notice of the whole courſe of Proceedings thereupon, and the iſſue thereof, your Liberties in Elections being the ſubject-matter of the Debate; and according as the Determi<g ref="char:EOLhyphen"/>nation is, ſo are you to be accounted either Freemen or Vaſſals. God hath in theſe late Times brought to light many memorable diſ<g ref="char:EOLhyphen"/>coveries of the Captivation and undue Subjection of the Engliſh People, and more particularly of the many ſtratagems and deluſive Arts, whereby the Citizens of <hi>Lon<g ref="char:EOLhyphen"/>don,</hi> and the Commonalties of the ſeverall Corporations therein contained; as alſo the Commonalties of other Corporations in other Cities and Burrough Townes, are deprived of their rights in Elections, and the knowledg of the Liberties, Charters and Tranſactions belonging to, and paſſing from them; whereby likewiſe they are kept in ignorance of their reſpective Revenues, and are engaged many times beyond and a<g ref="char:EOLhyphen"/>gainſt their Conſents: The means of the knowledg of all which, and many other parti<g ref="char:EOLhyphen"/>culars ſince God hath afforded you, if you ſhall either negelct the ſame, through a ſlothfull inanimadvertency, as if your private Callings only concerned you; or ſhall not (through want of conſcience) appear in the Claimer thereof, it is but juſt with God to leave you in worſe Vaſſalage, and more irremediable bondage then ever.</p>
+            <p>My purpoſe is not to give you a Narrative of the ſeverall Arguments and Reſpon<g ref="char:EOLhyphen"/>ſes
+<pb n="2" facs="tcp:115329:2"/>concerning the Queſtion above-mentioned, it will ſuddenly be done by a very able and faithfull Pen, and when upon the view thereof you ſhall be truly inform'd what your right in Elections has been, and ought to be; how it has been transferr'd into ſuch Hands as doe not properly Repreſent you, and yet by ſuch Elections conclude you; when I ſay you ſhall be ſenſible of theſe things, and knowing your ſelves out of the way, ſhall deſire to be brought in; you may then caſt your eye upon this following Act ready drawn up as fit for that end to be preſented to the Right Honorable the Parlia<g ref="char:EOLhyphen"/>ment. Neither need you be afraid, or doubt of good Succeſs therein, inaſmuch as your Deſires are grounded upon ſuch Principles as they themſelves have made uſe of in moſt of their late Acts, as having been in many particulars under much the ſame ſnares and captivations with your ſelves.</p>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="Act">
+                        <head>A Copy of the <hi>ACT</hi> thus followeth:</head>
+                        <p>WHereas by the aucient Charters granted and confirmed to this City, the election of the Mayor, Sheriffs, and other Officers of the ſaid City, ought to be by the Citizens or Commonalty thereof; Whereby it is evident that the whole Commonalty, either Perſonally (if without Confuſion it might be done) or their Repreſentatives choſen by them for that purpoſe, were to have Vote in all ſuch Elections. And whereas of la<g ref="char:EOLhyphen"/>ter times the Maſters, Wardens and Liveries of the ſeverall Co<gap reason="illegible" resp="#UOM" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>panies of this City have uſed and taken upon them (with the excluſion of an other Citizens) to make the ſaid Elections: which practiſe of theirs ſeems to be grounded upon an Act of Common-Councell made the <hi>23.</hi> day of September, in the ſeventh year of King<note n="¶" place="margin">Liber L. <hi>53.</hi>
+                           </note> 
+                           <hi>Edward</hi> the Fourth. Before which time the ſame Elections were made by a certain number of Perſons choſen out of every Ward for that purpoſe, as appears (amongſt ma<gap reason="illegible" resp="#UOM" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>y other Records) by an Act or Order of the Common-Hall made in the twentieth year of King<note n="¶" place="margin">Liber ult. <hi>20</hi> E. <hi>3.</hi>
+                           </note> 
+                           <hi>Edward</hi> the Third, whereby (to avoid inconveniencies hapning before that time in generall and immenſe Aſſemblies of the Citizens) it was agreed that for the time to come, the Officers aforeſaid ſhould be choſen by Repreſentatives of the ſeverall Wards. Now foraſmuch as divers Companies of the Citizens of this City have no Liveries at all and ſo have no manner of vote in the Elections by Liveries: And for that by the Con<g ref="char:EOLhyphen"/>ſtitutions of moſt of the other Companies, the Liveries thereof are not choſen by the whole Brother-hood, but by a few (as namely) the Wardens and Aſſiſtants only; and thereby the greateſt part of the Citizens (Mem<g ref="char:EOLhyphen"/>bers of thoſe Companies) are alſo excluded from having any Vote either in Perſon or Repreſentation, in the Elections before-mentioned: And ſo that great Priviledge of Chooſing their Maior, Sheriffs, and other Officers, is wholly taken from them, to their great grief, occaſioning thereby their of<g ref="char:EOLhyphen"/>ten complaints; For remedy whereof, and to the intent the ancient Char<g ref="char:EOLhyphen"/>ters of this City (touching Elections) may be purſued and kept inviolable;
+<pb n="3" facs="tcp:115329:2"/>Be it Enacted and Ordained, That from henceforth the Election of the Maior. Sheriffs, Burgeſſes for Parliament, and all other Officers of, or belonging to this City, formerly uſed to be choſen in a common-Hall, ſhall be made in the Common Hall of this City at ſuch times as hath béen formerly uſed in that behalf; And by ſuch Perſons, and in ſuch manner as is hereafter mentioned, (that is to ſay) That the Aldermen and Common councell-men of every Ward of this City, and the like number of other honeſt men of every Ward to be Choſen yearly for that purpoſe in the Wardmote, to be held by the Inhabitants of the ſame Ward (being Fréemen of the City of London paying Scot and Lot) which per<g ref="char:EOLhyphen"/>ſons ſo choſen, ſhall be Repreſentatives of all the Inhabitants of each Ward, as touching every ſuch Election; And ſhall for ever hereafter be the only Electors, of, and in every ſuch Election in the Common-Hall; and ſhall be from time to time returned by the Wardmote-Inqueſts of every Ward reſpectively in their Preſentations as Repreſentatives and Electors for, and on the behalf of the Inhabitants of the ſame Wards; and ſhall duly be ſummoned to the Common-Hall when any Election is to be made there, by the Lord Maior of the City for the time being, or his Officer thereunto appointed. And that every Election of any the Officers afore<g ref="char:EOLhyphen"/>ſaid, which ſhall be made by the ſaid Aldermen, Common-Councel-men, and the other Perſons to be choſen in every Ward for that purpoſe, or by the Major part of them aſſembled in the Common-Hall, ſhall be good and effectuall to all intents and purpoſes, as if the ſame had been made by all the Citizens of this City in their own Perſons. And that no Perſon or Per<g ref="char:EOLhyphen"/>ſons, ſave only the Electors hereby appointed, ſhall be at any time hereafter admitted unto, or have any Vote in any the Elections aforeſaid, upon the Penalty of paying for every ſuch Intruſton the ſum of Forty pounds. And be it further Enacted and Ordained, That all former Acts, Orders, and Determinations heretofore made by the Court of Common-Councell of this City, for, or touching the Election of any the Officers aforeſaid, ſhall be and are hereby Repealed, and made null &amp; void to all intents and purpoſes.</p>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <p>Now inaſmuch as the alienation of your right in elections, is but one particular, wherein you worthy Citizens of London have been abuſed, and that it is grown al<g ref="char:EOLhyphen"/>moſt the common diſcourſe of every one of you, that the City Banke and Revenue is by undue means exhauſted, and the Orphans money moſt uncharitably and uncon<g ref="char:EOLhyphen"/>ſcionably embezled, and the City it ſelf thereby impaired in its credit. You ſhall underſtand that divers good men of the Common-Councel out of a deep ſenſe hereof, &amp; ſadly laying to heart the exceeding diſhonour that thereby ariſes to the City beſides the unexpreſſible dammage to poor Orphans, to whom the City ought to be <hi>in loco Parentum,</hi> inſteed of Parents, the inſtitution being intended for their preſervation, &amp; the prevention of fraud and deceit in particular perſons: Thoſe good men I ſay fearing a miſcarriage herein, have earneſtly laboured that the Common-Councel might have a true knowledg and account of the City Treaſure; And after much importunity &amp; pains taken therein; with much ado a Committee was obtained to take the ſaid ac<g ref="char:EOLhyphen"/>count,
+<pb n="4" facs="tcp:115329:3"/>to the year 1649. A Copy whereof for your information, as a particular nearly concerning you, is likewiſe thought fit hereunto to be annexed: Together, with the anumeration of certain other grievances, and their Remedies, offered by the ſaid Committee to the Common-Councel.</p>
+            <div type="report">
+               <head>Auguſt 26. 1650.</head>
+               <head>The Report of the Committee appointed for Examination of the ſtate of the <hi>CHAMBER</hi> of <hi>London.</hi>
+               </head>
+               <p>ABout 1630. we finde the <hi>Chamber</hi> to be indebted about the ſum of 050000.00.00.</p>
+               <p>
+                  <table>
+                     <head>At <hi>Michaelmaſſe 1649.</hi> the Accompt of the <hi>Chamber</hi> being then Caſt up, the <hi>Chamber</hi> was then in Debt: Viz.</head>
+                     <row>
+                        <cell> </cell>
+                        <cell role="label">
+                           <hi>l.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>s.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>d.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To Orphans</cell>
+                        <cell>169654:</cell>
+                        <cell>01:</cell>
+                        <cell>03 ½</cell>
+                     </row>
+                     <row>
+                        <cell>To other Perſons for Principall money</cell>
+                        <cell>094412:</cell>
+                        <cell>13:</cell>
+                        <cell>04</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell role="total">264066.</cell>
+                        <cell role="total">14.</cell>
+                        <cell role="total">09 ½</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <hi>The means whereby it came into Debt, are either Extraordinary, or Ordinary.</hi>
+               </p>
+               <p>
+                  <table>
+                     <head>Extraordinary.</head>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1630.</cell>
+                        <cell>A Gold Cup given the Prince</cell>
+                        <cell>001191.</cell>
+                        <cell>04.</cell>
+                        <cell>09</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1633.</cell>
+                        <cell>Preſents given to the King, Queen, and Prince</cell>
+                        <cell>00326<gap reason="illegible" resp="#UOM" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1634.</cell>
+                        <cell>A Jewell given the Queen</cell>
+                        <cell>004000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1634.</cell>
+                        <cell>Entertainment of the King and Queen at <hi>Merchant-Taylors-Hall.</hi>
+                        </cell>
+                        <cell>001287.</cell>
+                        <cell>12.</cell>
+                        <cell>08</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1634</cell>
+                        <cell>Chriſtening the Duke of York</cell>
+                        <cell>000633.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1639</cell>
+                        <cell>A Cup of gold given the Q. Mother, &amp; other charges</cell>
+                        <cell>001000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1639</cell>
+                        <cell>Charges of the Charter</cell>
+                        <cell>002355.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1639</cell>
+                        <cell>Given the King</cell>
+                        <cell>010000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1639</cell>
+                        <cell>Compoſition for Package and Scavage</cell>
+                        <cell>004000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1639</cell>
+                        <cell>Compoſition for <hi>London-Derry</hi>
+                        </cell>
+                        <cell>012000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1639</cell>
+                        <cell>To the repair of <hi>Pauls</hi>
+                        </cell>
+                        <cell>000600.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <hi>Anno</hi> 1642</cell>
+                        <cell>Entertainment of the King and Queen</cell>
+                        <cell>001786.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell>For Building the Bridge</cell>
+                        <cell>006400.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell>For Ship-monty, and ſetting out Ships at Sea</cell>
+                        <cell>017218.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell>By Gifts and Rewards to Officers for 20 years, at 1200. <hi>l. per Annum</hi>
+                        </cell>
+                        <cell>024000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell cols="2"> </cell>
+                        <cell role="total">089730.</cell>
+                        <cell role="total">17.</cell>
+                        <cell role="total">01</cell>
+                     </row>
+                     <row>
+                        <cell cols="2">☞ Quaere, <hi>What authority the Court of</hi> Aldermen <hi>had to give ſuch gifts</hi> By ſeverall bad Debts</cell>
+                        <cell cols="3"> </cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell>By ſeverall bad Debts</cell>
+                        <cell>071739.</cell>
+                        <cell>14.</cell>
+                        <cell>01</cell>
+                     </row>
+                  </table>
+               </p>
+               <pb n="5" facs="tcp:115329:3"/>
+               <p>
+                  <table>
+                     <head>Ordinary.</head>
+                     <row>
+                        <cell> </cell>
+                        <cell role="label">l.</cell>
+                        <cell role="label">s.</cell>
+                        <cell role="label">d.</cell>
+                     </row>
+                     <row>
+                        <cell>Charges for Marſhall Cauſes for twenty years</cell>
+                        <cell>035278.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>For Intereſt-money paid 20 years, at 6000 <hi>l. per annum</hi>
+                        </cell>
+                        <cell>120000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By delivering up of Bonds to be Cancelled by Act of Common-Councell in 1640. to ſeverall Perſons for money lent them out of the Chamber 20. years before about 30000. <hi>l.</hi> Principall in all with Intereſt</cell>
+                        <cell>060000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>For Officers ſtanding Fees for about 20. years, at 1400 <hi>l. per annum</hi>
+                        </cell>
+                        <cell>028000.</cell>
+                        <cell>00.</cell>
+                        <cell>00.</cell>
+                     </row>
+                     <row>
+                        <cell>For Workmens wages for 20. years at 1000 <hi>l. per annum</hi>
+                        </cell>
+                        <cell>020000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>Stuff for Reparation for about 20. years, at 1600 <hi>l. per annum</hi>
+                        </cell>
+                        <cell>030400.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>The totall ſum given, loſt and expended for about 20. years, is</cell>
+                        <cell role="total">455148.</cell>
+                        <cell role="total">11.</cell>
+                        <cell role="total">02</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>Now having found out what the CHAMBER is indebted, and by what meanes it came ſo indebted; We have theſe Two things to offer; <hi>Viz.</hi>
+               </p>
+               <list>
+                  <item>The reimburſement of the CHAMBER.</item>
+                  <item>The prevention of the like evill for time to come.</item>
+               </list>
+               <p>Firſt, For reimburſement of the Chamber, we conceive thar a ſpeedy courſe ſhould be taken for getting in</p>
+               <list>
+                  <item>I. All Debts belonging to the CHAMBER.</item>
+                  <item>II. That all the Lands, Tenements, and all other things belonging to this City, be ſpeedily ſold towards ſatisfaction of the Debts; and in caſe they ſhall not be ſufficient, then the Remainder to be made good by a Tax, or otherwiſe as the Court ſhall think fit</item>
+               </list>
+               <p>And having ſet before you what your Engagements are, we judged it alſo meet to give you a gueſſe of what you have wherewith to diſcharge the Engagement. <hi>Viz.</hi>
+               </p>
+               <p>
+                  <table>
+                     <row>
+                        <cell> </cell>
+                        <cell role="label">
+                           <hi>l.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>s.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>d.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>By Fines for City Lands</cell>
+                        <cell>002329.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By Fines for Aldermen and Sheriffs</cell>
+                        <cell>005206.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By ſeverall other Debts</cell>
+                        <cell>004813.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By the Royall Contract</cell>
+                        <cell>025000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By the Mannor of <hi>Finsbury</hi> a 1000 <hi>l. per annum</hi>
+                        </cell>
+                        <cell>008000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By the Lands and Tenements belonging to the Chamber, 8000 <hi>l. per annum</hi>
+                        </cell>
+                        <cell>068000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By Goods, and Plate, and Jewels</cell>
+                        <cell>001200.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>By <hi>London-Derry</hi>
+                        </cell>
+                        <cell>020000.</cell>
+                        <cell>00.</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell role="total">134548.</cell>
+                        <cell role="total">00.</cell>
+                        <cell role="total">00</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>Secondly, for prevention of the like evill for time to come, this Committee hath ſet down the moſt materiall Grievances, and their reſpective Remedies, as they conceive, and offer them to the conſideration of this Court.</p>
+               <div n="1" type="grievance">
+                  <pb n="6" facs="tcp:115329:4"/>
+                  <head>Grievance <hi>1.</hi>
+                  </head>
+                  <p>The ſaid Committee finde that the Revenue of the City and the Orphans money come all into one Bank and Treaſury, and the vaſt and unneceſſary expence of the Ci<g ref="char:EOLhyphen"/>ty exceeds it's Revenue, and incroaches upon the ſtock of the Orphans to ſupplie it's exorbitancy, and whatever charges have come upon the City have been defrayed in great meaſure by the Orphans money.</p>
+                  <div n="1" type="remedy">
+                     <head>Remedie <hi>1.</hi>
+                     </head>
+                     <p>That two diſtinct Accounts and Caſhes be kept henceforth by way of Debtors and Creditors, one for the Revenue of the City, and the other for Orphanage money, and that none of the Orphans money be iſſued out for payment of former debts con<g ref="char:EOLhyphen"/>tracted, but for the payment of thoſe particular Orphans by name, whoſe moneys ſhall from henceforth be brough in; and that until ſuch moneys ſhall grow due to be paid unto the Orphans that brought in the ſame, they ſhallbe put forth for the beſt advantage, and thereout to pay finding money; and that alſo a ſtrict account be ta<g ref="char:EOLhyphen"/>ken of what the City Revenue will amount unto (the Lands being ſold) that ſo we may apportion our expence accodingly.</p>
+                     <p>And that two Committees be choſen, nine perſons to be of each Committee, the <hi>Quorum</hi> to be three, the one for the Revenue of the City, and the other for the Orphans; four of each Committee to fall of at <hi>Michaelmas</hi> day every year, and four more to be choſen, the ſaid Committee to examine from time to time, and Audit the ſeveral and reſpective Accounts of the Revenue of the City and Orphans, and take care the money be iſſued upon the diſtinct Accounts aforeſaid, which Committee ſhal from time to time make their reports to the Court of Common-councel.</p>
+                     <p>And in caſe the Chamberlaine ſhall iſſue out any monys other then by Act of Com<g ref="char:EOLhyphen"/>mon-councel, &amp; the order of the ſaid Committees reſpectively, unleſs for finding mo<g ref="char:EOLhyphen"/>ney, or upon ſatisfaction to be made to Orphans for their portions; that then the Chamberlaine ſhall anſwer and make good the ſame and forfeit his place.</p>
+                     <p>The Officers under the Chamber to be imployed herein to be two, the one to be receiver of the City Revenue and of the Orphans money, the other to be Cleark to keep the Book of Accounts.</p>
+                  </div>
+               </div>
+               <div n="2" type="grievance">
+                  <head>Grievance <hi>2.</hi>
+                  </head>
+                  <p>The ſaid Committee finde an exceſſive charge to be upon the City in main<g ref="char:EOLhyphen"/>taining and keeping ſo many workmen of all trades, and by being confined to make uſe of thoſe particular men, who bring in great ſums annually Expended in emption of reparation, ſtuffe, and for work-mens wages, and their wages ſometimes exceeding the materials, who make their Bills it's conceived more by cuſtome, then by real charge expended or work done by them.</p>
+                  <div n="2" type="remedy">
+                     <head>Remedie <hi>2.</hi>
+                     </head>
+                     <p>That all the ſaid worke-men be diſcharged, and that a Committee be choſen that ſhall from time to time contract with work-men as they ſhall ſee cauſe, both for their ſtuffe and labour, and that a Surveyor be choſen to view works to be done, and to make report as the caſe ſhall require to the ſaid Committee, and upon warrant from that Committee to the Chamberlaine, the work-men to be paid their Bills out of ſuch money which ſhall be raiſed by fifteens, According to the Ancient and Laudable Cuſtome of this City.</p>
+                  </div>
+               </div>
+               <div n="3" type="grievance">
+                  <pb n="7" facs="tcp:115329:4"/>
+                  <head>Grievance <hi>3.</hi>
+                  </head>
+                  <p>The ſaid Committee find an Annual Charge of 6. or 700. <hi>l. per annum</hi> expended in keeping Courts in <hi>Kent, Eſſex, Surry,</hi> and about the River of <hi>Thames,</hi> for conſervati<g ref="char:EOLhyphen"/>on of the River in Fiſhing and keeping it Navigable; and yet ſmall or no fines or other profit ariſeth thereby to the City, whereby the ſaid charge may be defrayed, ſo that the ſame is a ſuperfluous expence</p>
+                  <div n="3" type="remedy">
+                     <head>Remedie <hi>3.</hi>
+                     </head>
+                     <p>That one ſteward be appointed to keep Courts &amp; receive fines and give account of the ſame, and to be allowed reaſonable charges therein.</p>
+                  </div>
+               </div>
+               <div n="4" type="grievance">
+                  <head>Grievance <hi>4.</hi>
+                  </head>
+                  <p>The ſaid Committees finde great ſums of Money and Annuities given to divers Offi<g ref="char:EOLhyphen"/>cers of the City by way of Gifts and rewards over and above their ancient Sallaries and allowances, which in this ttme of the Chambers ſtock declining are moſt fit to be ſpared.</p>
+                  <div n="4" type="remedy">
+                     <head>Remedie <hi>4.</hi>
+                     </head>
+                     <p>That no moneys by way of gift, reward, or increaſe of Sallarie be henceforth given by the Major and Court of Aldermen, without conſent of the Court of Com<g ref="char:EOLhyphen"/>mon-Councel.</p>
+                     <p>All which we humbly leave unto the conſideration of this Court, and offer it as the earneſt deſire of this Committee that a Common-Councel be held once eve<g ref="char:EOLhyphen"/>ry week, to proſecute this our Report unto ſome good iſſue, for the good of the City.</p>
+                     <closer>
+                        <dateline>
+                           <date>Auguſt 26. 1650.</date> Preſent,</dateline>
+
+                        <signed>
+                           <list>
+                              <item>Mr. Sheriff <hi>Pack</hi>
+                              </item>
+                              <item>Mr. Ald. <hi>Chiverton</hi>
+                              </item>
+                              <item>Col. <hi>Mannering</hi>
+                              </item>
+                              <item>Mr. <hi>Cole.</hi>
+                              </item>
+                              <item>Mr. <hi>Barbone</hi>
+                              </item>
+                              <item>Mr. <hi>Dalliſon</hi>
+                              </item>
+                              <item>Mr. Ald. <hi>Tichborne</hi>
+                              </item>
+                              <item>Mr. Ald. <hi>Hayes</hi>
+                              </item>
+                              <item>Mr. <hi>Gibbs</hi>
+                              </item>
+                              <item>Mr. <hi>Bolton</hi>
+                              </item>
+                              <item>Mr. <hi>Adams</hi>
+                              </item>
+                              <item>Mr. <hi>Manton.</hi>
+                              </item>
+                           </list>
+                        </signed>
+                     </closer>
+                  </div>
+               </div>
+            </div>
+            <div type="part">
+               <p>By all which you may perceive.</p>
+               <p n="1">I. That though it hath ever been urg'd as neceſſary, that the chief Officers of the City ſhould be men of great Eſtates, yet you ſhal find that their Liberality was ſtil ſupplyed from the common Purſe, as appeares by the Sums ſwallowed up in Preſents, Gifts, and ſuperfluous Entertainments, &amp;c. mention'd in the beginning of their Accompt: Their very Houſ-keeping alſo (for the moſt part) during their being in Office, being de<g ref="char:EOLhyphen"/>frayed by the City.</p>
+               <p n="2">II. You will finde the preſent Poverty and low condition of the <hi>Chamber</hi> of <hi>Lon<g ref="char:EOLhyphen"/>don;</hi> and that it is neceſſary that ſome other Security be thought upon, and the Eſtates you leave your Children, in ſome mor ſecure manner diſpoſed of, till ſuch time as the Debts already contracted be diſcharged; at leaſt force not in the Eſtates of preſent Orphans, to ſtop old Aldermen-Gaps; but reſerve them carefully for the right owners.</p>
+               <pb n="8" facs="tcp:115329:5"/>
+               <p n="3">III. You will hereby finde it neceſſary, that an effectuall way be taken for the yearly Auditing of Accounts, ſuch as is offered as a Remedy to the firſt Grievance; Inaſ<g ref="char:EOLhyphen"/>much as there is nothing doth more encourage and give occaſion to embezelment, and undue diſpending the City-Treaſury, then the long omiſſion of Accompts.</p>
+               <p>I ſhall humbly-likewiſe ſubjoyn, as neceſſary for your conſiderations, That the du<g ref="char:EOLhyphen"/>ty and buſineſs, the time of continuance and allowance of every Officer in the City, from the higheſt to the loweſt, be amongſt your ſelves agreed upon; and, That they be fairly Written in Tables, and affix'd in the <hi>Common-Councell,</hi> and <hi>Common-Hall.</hi> And that likewiſe the buſineſs, time of continuance, and allowance be expreſt in Writing, and publickly Read at the Election of every Officer; And that two Copies thereof be drawn up, the one to remain in the cuſtody of each reſpective Officer, and the o<g ref="char:EOLhyphen"/>ther in the cuſtody of the reſpective perſons that choſe: That ſo controverſies about theſe particulars may be at an end; and that as well the Officer may know what he has to doe, and how farr he is authorized; and that the People likewiſe may know when, and how far each Officer exceeds the bounds and limits of his Authority. This I humbly conceive to be abſolutely neceſſary; for want whereof hath ariſen theſe many uſurpations, and undue adminiſtrations that have been complained of on the one hand, and the many diſguſts and differences between the People themſelves on the other; and all becauſe of an uncertainty in theſe particulars.</p>
+               <p>Mark thoſe that ſhew fair before they are choſen Common-councell-men, but prove falſe, or negligent, or proud and preſumptuous ever after; That ſtand ſtoutly and faith<g ref="char:EOLhyphen"/>fully for your good and for your Libertie, whilſt they are Common-councell-men, but being made <hi>Aldermen</hi> prove treacherous, and trample upon your Liberties; and uſe all diligence to make their unworthineſs known unto the world, and to render unto them according to their Works; and in making uſe of the Act of Parliament for Elections here following, be ſure to reject all ſuch perfidious Perſons.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="Act_of_Parliament">
+                           <head>Viceſſimo octavo Februarii, <hi>1648.</hi>
+                           </head>
+                           <head>An Act of the Commons of England in Parliament aſſembled for removing Obſtructions in the proceedings of the Common Councell of the Citie of LONDON.</head>
+                           <p>THe Commons of <hi>England</hi> in Parliament aſſembled, do enact and ordain, and be it enacted and ordained by the authoritie aforeſaid, That in all times to come, the Lord Major of the ſaid Citie of <hi>Lon<g ref="char:EOLhyphen"/>don,</hi> ſo often and at ſuch time as any ten or more of the Common Councell men doe by writing under their hands requeſt or deſire him thereunto, ſhall ſummon, aſſemble, and hold a Common Councell. And if ut any time being ſo requeſted or deſired, he ſhall faile therein, then the ten perſons, or more, making ſuch requeſt or deſire, ſhall have power, and are hereby authorized by writing under their hand, to Common, or cauſe to be ſummoned to the ſaid Councell, the members
+<pb facs="tcp:115329:5"/>belonging thereunto in as ample manner as the Lord Maior himſelfe uſually heretofore hath done. And that the Members appearing upon the ſame ſummons, being of the number of fourtie, or more, ſhall be<g ref="char:EOLhyphen"/>come a Common Councell. And that each Officer whoſe dutie it ſhall be to warn in and ſummon the members of the ſaid Councell, ſhall performe the ſame from time to time, upon the Warrant or Command often perſons or more ſo authorized as aforeſaid. And it is further enacted and ordained by authoritie aforeſaid, that in every Common Councell hereafter to be aſſembled, the Lord Maior of the ſaid Citie for the time being or in his abſence ſuch <hi>Locum tenens</hi> as he ſhall ap<g ref="char:EOLhyphen"/>point, and in default thereof the eldeſt Alderman preſent, if any be, and for want of ſuch Alderman, or in caſe of his ueglect or refuſall therein, then any other perſon Member of the ſaid Councell, whom the Com<g ref="char:EOLhyphen"/>mons preſent in the ſaid Councell ſhall chuſe ſhall be from time to time Preſident or Chairman of the ſaid Councell, and ſhall cauſe and ſuf<g ref="char:EOLhyphen"/>fer all things offered to, or propoſed in the ſaid Councell, to be fairly and orderly debated, put to the queſtion, voted and determined in and by the ſame Councell, as the maior part of the Members preſent in the ſaid Councell ſhall deſire or think fit; and in every vote which ſhall paſſe, and in the other proceedings of the ſaid Councell, neither the L. Maior nor Aldermen, joint or ſeparate, ſhal have any negative or diſtinct voice or vote, otherwiſe then with &amp; among, &amp; as part of the reſt of the mem<g ref="char:EOLhyphen"/>bers of the ſaid Councel, and in the ſame manner as the other members have: And that the abſence and withdrawing of the Lord Maior or Al<g ref="char:EOLhyphen"/>dermen from the ſaid Councell, ſhall not ſtop or preiudice the proceedings of the ſaid Councel, And that every Common Councel which ſhall be held in the city of <hi>London</hi> ſhall ſit and continue ſo long as the major part of the councel ſhal think fit, and ſhal not be diſſolved or adjourned but by and ac<g ref="char:EOLhyphen"/>cording to the Order or conſent of the Major part of the ſame councel. And that all the Votes &amp; Acts of the ſaid common-councell which was held <hi>13</hi> Ianuary laſt, after the departure of the L Maior from the ſame councel And alſo all Votes &amp; Acts of every common-councel hereafter to be held, ſhal be from time to time duly regiſtred as the Votes &amp; Acts of the ſaid councell have uſed to be done in time paſt. And be it further Enacted &amp; Ordained by the authority aforeſaid, that every Officer which ſhal ſit in the ſaid councel, ſhal be from time to time choſen by the ſaid councel, and ſhall have ſuch rea<g ref="char:EOLhyphen"/>ſonable allowance or ſalary for his pains and ſervice therin, as the coun<g ref="char:EOLhyphen"/>cel ſhal think fit. And that every ſuch Officer ſhal attend the ſaid com<g ref="char:EOLhyphen"/>mon-councel: And that all Acts &amp; Records, and Regiſter-books belonging to the ſaid city, ſhal be extant to be peruſd and ſearched into by every citizen of the ſaid city, in the preſence of the Officer who ſhal have the charge or kee<g ref="char:EOLhyphen"/>ping therof, who is hereby required to attend for the ſame purpoſe.</p>
+                           <closer>
+                              <signed>HEN. SCOBELL CLER. PARLIAMENT.</signed>
+                           </closer>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <pb facs="tcp:115329:6"/>
+               <p>
+                  <hi>Quit your ſelves and the City of all thoſe inhumane cruel, ſharking, and growling Officers, as Clerks, Sergeants <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>omen, Youngmen, Coun<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>er keepers, Priſon-keepers, being all ſo enured to baſeneſs and villany, that in vant you endevor to re<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>orm abuſes whilſt ſuch ar<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> employed; and in all their places, retain none but diſcreet and conſcio<g ref="char:EOLhyphen"/>nable perſons that will uſe men with humanity and Chriſtianity; Be ſenſible of the crys of poor diſtreſſed Priſo<g ref="char:EOLhyphen"/>ners and conſider how it can be anſwered, that any ſhould be choakt and eaten up with naſtineſs, want of food, and vermin; leaſt whilſt you complain of unfaithfulneſs and hard heartedneſs in others, your ſelves be found guilty in the judgment of the Lord. And that you may more fully and groundedly know your Rights, take the Heads of your Freedoms, as they are confirmed by the Charter of Edward the ſecond, as here followeth; and fix them in your own, your Servants, and Childrens memories for ever.</hi>
+               </p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="letter">
+                           <head>EDWARD by the grace of God, King of England, Lord of Ireland, and Duke of Aquitane: To all to whom theſe preſent Letters ſhall come, greeting</head>
+                           <p>KNow ye, that whereas our beloved and truſty, the Major, Al<g ref="char:EOLhyphen"/>dermen, and the reſt of the Citizens of our City of <hi>London,</hi> for the betterment of the ſaid City, and for the common profit of the Inhabi<g ref="char:EOLhyphen"/>tants in the ſame City, and of ſuch as repair and come to the ſame; did a<g ref="char:EOLhyphen"/>mong themſelves ordain and Enact certain things to be for ever obſerved in the ſaid City, and earneſtly ſupplicated us, that we would take care to accept and confirm the ſame; we having ſeen certain Letters Pattents touching the premiſes, ſigned with the common Seal of the ſaid City, and with the Seal of the Office of the Majoralty of the ſame City, concerning the premiſes being open, and preſented to us; we have cauſed certain Ar<g ref="char:EOLhyphen"/>ticles to be drawn out of the ſaid Letters Pattents, and the ſame in ſome things to be corrected as here following they are ſet down, That is to ſay, <hi>That the Major, and Sheriffs of the ſaid City, be choſen by the Citizens of the ſame City, according to the Tenure of the Charters of our Progenitors, former<g ref="char:EOLhyphen"/>ly Kings of</hi> England, <hi>therefore made unto them, and not otherwiſe.</hi> And the Major of the City aforeſaid ſhall not abide in the office of his Majoral<g ref="char:EOLhyphen"/>ty, at one time, above one year. And that none of the Sheriffs of the ci<g ref="char:EOLhyphen"/>ty for the time being, have but two Clerks, and two ſervants, in regard of that office. And that they take ſuch Clerks and ſerjeants at their own pe<g ref="char:EOLhyphen"/>ril, for whom they will anſwer. And that the Major of the City afore<g ref="char:EOLhyphen"/>ſaid, while he is Major, hold no other office belonging to the City, then the office of the Majoralty of the ſame City. Neither draw unto him, or hold before him in the Chamber of the ſaid City, any Vicecountill plea, nor any other pleas then thoſe which according to the ancient cuſtom of the ſaid City, as Major, he ought to hold. <hi>And that the Aldermen of the ſaid City from year to year,</hi> and eſpecially upon the day of Saint <hi>Gregory</hi> the Pope, <hi>by the ſaid Commonalty be removeable; and being removed, may not be choſen again for the enſuing year.</hi> But inſtead of thoſe that be removed, others be choſen by the ſame Wards of which the Aldermen ſo removed were: And that Tallages or Aids for the uſe of us, our heires, or for the State or profit of the ſaid City, from henceforth in the ſame, to be aſſeſſed, after they be aſſeſſed by men of the Wards choſen or deputed for that end, may not be increa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>ed, or raiſed by the Major, Aldermen, or others, but by the common conſeat of the Major and Commonalty of the City aforeſaid. And that the monies ariſing from ſuch Tallages, or Aids, be delivered in to the cuſtody of <hi>foure honeſt Commoners</hi> of the City aforeſaid for that end, <hi>to be choſen by the Commonalty of the ſaid City,</hi> to be paid over by the
+<pb facs="tcp:115329:6"/>teſtimany of the ſame <hi>4.</hi> men; ſo that the ſaid <hi>4.</hi> men may be able to inform the ſaid <hi>Commonalty,</hi> for what profit and what uſes the ſaid monies went. And that no ſtranger or alien be admitted into the freedome of the ſaid ci<g ref="char:EOLhyphen"/>ty, but in the Huſtings. And that a Native, and eſpecially an Engliſh Merchant of any trade or calling, be not admitted into the liberty of the ſaid City, but by the manucaption of ſix honeſt and able men of the trade or calling of which he ſhall be who is ſo to be made free; which ſaid ſix men ſhall become bound for him to be made free, for keeping the City harmleſs on that behalf. And the ſame manner or form of manucaption ſhall be ob<g ref="char:EOLhyphen"/>ſerved of the ſtrangers or aliens aforeſaid, who are to be made free of the ſaid citie in the Huſtings, if they be of any certain trade or office. And if they be of no trade, then they may not be made free of the ſaid city, without the <hi>aſſent of the Commonalty of the ſaid City.</hi> And they that were made f<gap reason="illegible" resp="#UOM" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>ee of the city, ſince we took upon us the government of our Realm, contrary to the formes preſcribed, and who againſt their oaths in this behalf taken, or a<g ref="char:EOLhyphen"/>gainſt the State of the City have acted and been lawfully thereof convicted, <hi>ſhall forfeit their freedome of the City;</hi> Provided alwayes, that the ancient manner and form of the City aforeſaid of Apprentices in the ſame citie, be ob<g ref="char:EOLhyphen"/>ſerved, And that every yeare in the ſaid citie, ſo often as need ſhall require inquiſition be made, if any free man of the ſaid City, ſhall ſell in the citie the goods of others, who are not free of the citie by calling thoſe goods their own, contrary to their oath, and the freedom of the ſaid City: thoſe that ſhall be thereof lawfully convicted, <hi>do forfeit their freedom of the City.</hi> And that all and every of thoſe which are free of the city aforeſaid, and willing to enioy the liberties and free Cuſtomes of the ſaid City, be in Lot and Scot, and partakers of all charges for the State of the ſaid City aforeſaid, and for maintaining the freedom thereof, according to the Oath which they did ſake, when they were made free, <hi>And he that will not this do, doth for<gap reason="illegible" resp="#UOM" extent="4 letters">
+                                    <desc>••••</desc>
+                                 </gap> the freedom of the City;</hi> And that all and every who be free of the ſaid City: and dwell without the ſame, and do exerciſe Marchandize by themſelves or Agents within the City; <hi>Bain Lot and Scot with the Commons of the Ci<g ref="char:EOLhyphen"/>ty for the ſaid Merchandize, or otherwiſe, they ſhall forfeit their freedom;</hi> And that <hi>main Common Seal of the City</hi> aforeſaid, remain in the cuſtody of <hi>two Aldermen, and two other Commoners to be choſen for it by the COMMONS of the City;</hi> And that the ſaid Se<gap reason="illegible" resp="#UOM" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>l be not denied to the poor: nay, rich Commoners of the City aforeſaid, whenſoever they ſtand in need of it, while they can reaſonably prove the cauſe or demand. And that nothing be tak<g ref="char:EOLhyphen"/>en for the ſetting to of the ſaid Seal. And that Redditions of Iudgements in the Courts of the City, and eſpecially after verdict of Inquiſitions taken in caſes where Inquiſitions are taken, ſhall not be hindered or retarded, unleſs ſome difficulty fall out; And if difficuity fall out, yet for this they ſhall not remain beyond the third Court to be holden after. And that weights and meaſures of Merchandize to be meaſured betwixt Merchant and Mer<g ref="char:EOLhyphen"/>thant, of which the profits ariſing, and the Cognizance of the ſame, be<g ref="char:EOLhyphen"/>long to the <hi>COMMONALTY</hi> of the ſaid City, remain in the keeping of honeſt and able men of the City, skilfull in that Calling, and to be choſen
+<pb facs="tcp:115329:7"/>for this by the <hi>COMMONALTY</hi> of the City to be kept at the pleaſure of the ſaid <hi>COMMONALTY,</hi> and it to be intruſted by no means to any other, but to ſuch ſo to be choſen. And that the Sheriffs of the City aforeſaid for the time being may ſet the Toll and other Cuſtoms belonging to their Farm, and other publick offices belonging to them (and to be exerciſed by others) to able Citizens (if they will ſet them) for whom the Sheriffs themſelves will anſwer, and to none other. And if any Deputed to any of the pre<g ref="char:EOLhyphen"/>miſes, undue cuſtoms, or ſhall otherwiſe behave himſelf, in that office then be ought, and at the <gap reason="illegible" resp="#UOM" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>u<gap reason="illegible" resp="#UOM" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>e of the Complainant be thereof convicted, <hi>Be put out of that office,</hi> and puniſhed according to his demerits. And that Merchants who are not of the freedom of the City aforeſaid may not ſel any wines or other wares within the City or the ſubur<gap reason="illegible" resp="#UOM" extent="2 letters">
+                                 <desc>••</desc>
+                              </gap> therof by Retail. And that Brokers of any merchandiſe in the City aforeſaid may not be except they be choſen by Merchants of thoſe trades in which theſe Brokers have had their Callings to exerciſe, and upon this at the leaſt take oath before the Maior of the ſaid City. And that all common Inn-keepers in the ſaid City and Suburbs thereof, though they be not of the freedom of the City, but partakers of the charges belonging to the ſaid City, for maintaining the ſtate of the City, ſo long as they be common Innkeepers; as other the like Innkeepers in that City and ſuburbs ſhall partake by reaſon of the Innkeepers: provided always, that merchants of <hi>Gaſcoign,</hi> and other ſtrangers always may dwell and long toge<g ref="char:EOLhyphen"/>ther in the ſaid City as formerly they were accuſtomed to doe. And that the keeping of the <hi>Bridg of the City</hi> aforeſaid, and the Rents and Profits belonging to the ſaid Bridg, be commit<g ref="char:EOLhyphen"/>ted to two honeſt and able men of the City aforeſaid, <hi>others then Aldermen,</hi> to be choſen for that purpoſe, by the <hi>Commonalty of the ſaid City</hi> to be kept at the pleaſure of the <hi>Commonalty of the ſaid City,</hi> and who are able to anſwer to the Commonalty of the ſaid City for the ſame, and not to any others. And that no Sergeant of the Chamber of Guild Hall of the City afore<g ref="char:EOLhyphen"/>ſaid, take Fee of the Commonalty of the ſaid City, or make execution, unleſs he be therunto choſen by the Commonalty of the City for that end. And that the Chamberlain, Common Clark, and Common Serjeant of the City aforeſaid, be choſen by the Commonalty of the ſaid City; and removed at the pleaſure of the ſaid Commonalty. And that the Major and Recorder of the ſaid City, and the ſaid Chamberlain and Common Clark, be content with their Fees appointed, and paid of old, by reaſon of their office: And other fees they may not take for their offices aboveſaid And that the Goods of Aldermen of the ſaid City, be taxed as the Goods of other Citizens, in Aydes, Callages, and other Contributions hap<g ref="char:EOLhyphen"/>pening in the City, by men of the Wards, where theſe Aldermen abide.</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>NOW worthy Citizens, by what is before expreſſed you may partly ſee your own freedoms and rights which are to have votes in the annual election of the greateſt of your Officers either perſonally, or by reaſon of the popularity of the City Deputatively by repreſentatives, and this is ſo eſſential a right of yours, to denominate you to be freemen indeed, as the robbing you of it demonſtrates you to be ſlaves rather then freemen: and though in any of your anceſtors there ſhould have been ſo much baſeneſs as voluntarily to give them away, (which they never did) yet their giving cannot tye you in your generationss from the claiming and aſſuming the Exerciſe of your indubitable natural rights; and high time it is for you ſo to do, foraſmuch as the incroachments of your Court of Aldermen upon your natural rights, hath not only run your common Treaſury into about three hundred thouſand pounds debt, but alſo hath put them in the road way to coſen and cheat all your Orphans of all their portions that at the deaths of their fathers they force the execu<g ref="char:EOLhyphen"/>tors to bring into their hands and what man but a mad man or a fool would labor for to get riches that his children ſhall never be the better for, but be left for knaves and cheats to waſt, ſpend and conſume: And therefore conſider with your ſelves of how great a concernment it is for you at your next election to chuſe faithful and valiant Common-Councel-men that will ſtruggle with the ſtrength of reaſon to regain your loſt Liberties, and to controvert with the ſtrength of Argument, that juſt and needfull queſtion now one foot betwixt your preſent honeſt Common-Councel-men, and your arbitrary incroaching Court of Aldermen, <hi>viz.</hi> Whether thoſe Aldermens lands and e<g ref="char:EOLhyphen"/>ſtates that were Aldermen in thoſe years your money was waſted and ſpent, ſhall pay thoſe vaſt debts they have run you into, or whether now in your poverty and decay of your trades, you ſhall be forced by a common tax to pay about 300000. l. your Aldermen in leſs then 20 years hath waſted you: Room ſtraitens me for going on, but expect in few daies a Peice to the purpoſe, by a better pen, and if you give incouragement by your good uſe of what is here already declared to you, this pen promiſeth to viſit you again in print before many weeks be expired; but in the mean time commits you to God. This 17. December, 1650.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
